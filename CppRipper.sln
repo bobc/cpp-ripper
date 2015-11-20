@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppRipper", "CppRipper.csproj", "{A64E0273-2A7B-4CEC-A01A-6C3C9982E274}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppRipperCli", "CppRipperCli\CppRipperCli.csproj", "{1D801BCF-7064-4DF8-A0D7-518BB07B559E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppRipperLib", "CppRipperLib\CppRipperLib.csproj", "{12FE2047-D8EF-417C-8DAC-7627E7FBFCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppRipperGui", "CppRipperGui\CppRipperGui.csproj", "{5653C555-AF80-43DF-8F79-4503EE44094D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A64E0273-2A7B-4CEC-A01A-6C3C9982E274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A64E0273-2A7B-4CEC-A01A-6C3C9982E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A64E0273-2A7B-4CEC-A01A-6C3C9982E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A64E0273-2A7B-4CEC-A01A-6C3C9982E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D801BCF-7064-4DF8-A0D7-518BB07B559E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D801BCF-7064-4DF8-A0D7-518BB07B559E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D801BCF-7064-4DF8-A0D7-518BB07B559E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D801BCF-7064-4DF8-A0D7-518BB07B559E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FE2047-D8EF-417C-8DAC-7627E7FBFCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FE2047-D8EF-417C-8DAC-7627E7FBFCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FE2047-D8EF-417C-8DAC-7627E7FBFCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FE2047-D8EF-417C-8DAC-7627E7FBFCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5653C555-AF80-43DF-8F79-4503EE44094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5653C555-AF80-43DF-8F79-4503EE44094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5653C555-AF80-43DF-8F79-4503EE44094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5653C555-AF80-43DF-8F79-4503EE44094D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

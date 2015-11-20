@@ -8,7 +8,9 @@ using System.Text;
 using System.IO;
 using System.Windows.Forms;
 
-namespace CppRipper
+using CppRipper;
+
+namespace CppRipperGui
 {
     public partial class Form1 : Form
     {
